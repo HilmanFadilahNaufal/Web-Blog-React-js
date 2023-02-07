@@ -8,7 +8,6 @@ const [error , setError] = useState(null)
   useEffect(() =>{
     fetch(url)
     .then(res => {
-      console.log(res)
       if(!res.ok){
         throw error('colud not fetch the data for that resource')
       }
