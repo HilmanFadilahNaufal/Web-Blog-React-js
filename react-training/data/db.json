@@ -1,0 +1,22 @@
+{
+  "blogs": [
+    {
+      "title": "bagas",
+      "body": "tio",
+      "author": "Rani",
+      "id": 1
+    },
+    {
+      "title": "hilman",
+      "body": "cacian dana hinaan membuat saya menjadi lebih termotivasi ,membuat saya lebih kuat ",
+      "author": "Rani",
+      "id": 4
+    },
+    {
+      "title": "Rs PMI Bogor",
+      "body": "Dimana semua mendoakan aki ade agar cepet pulih kembali",
+      "author": "Rani",
+      "id": 5
+    }
+  ]
+}
