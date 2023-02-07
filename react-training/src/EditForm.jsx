@@ -10,7 +10,7 @@ const [isPending , setIsPending ] = useState (false)
 const navi = useNavigate()
 let { query, sort ,id } = useParams();
 const { data: blog, error  } = useFetch('http://localhost:8000/blogs/' + id)
-console.log(blog)
+
 
 useEffect(() => {
   if  (blog) {
@@ -33,7 +33,6 @@ const handleSubmit = (e) => {
     body: JSON.stringify(blog)
 
   }).then(() =>{
-    console.log("new blog hilman")
     setIsPending(false)
     // navi('/edit/'+ blog.id)
   })
